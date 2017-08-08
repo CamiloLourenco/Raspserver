@@ -1,5 +1,5 @@
 // MODIFY THIS WITH THE APPROPRIATE URL
-var socket = io.connect('WEB-SERVER-DOMAIN-HERE:8080');
+var socket = io.connect('13.58.219.68:8080');
 
 socket.on('connect', function() {
   socket.emit('hello');
